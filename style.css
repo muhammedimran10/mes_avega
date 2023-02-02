@@ -7,16 +7,37 @@
     box-sizing: border-box;
 }
 .top{
-    padding: 0% 10% 0 10%;
+    background-image: url(image/bk1.jpeg);
+    padding: 0% 5% 0 2%;
     min-height: 60px;
     display: flex;
     flex-direction: column;
     font-family: fantasy;
     font-weight: 800;
-    color: #cf9d6c;
+    color:#dce29f;
 }
 .top .logo{
-    background-image: url(image/og.jpeg);
+    width: 10em;
+    height: 4em;
+    background-image: url(image/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.top h2{
+    font-family: Cinzel;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: .4em;
+}
+.top .a_log{
+    background-image: url(image/a_LOGO.png);
+    width: 8em;
+    height: 3em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .burger{
@@ -44,7 +65,7 @@
         right: 0px;
         height: 80vh;
         top: 12vh;
-        background-color: #222736;
+        background-color: #553131;
         display: flex;
         flex-direction: column;
         min-width: 50%;
@@ -83,7 +104,7 @@
 
 @media(min-width:750px){
     .home{
-         height: 40vh;
+         height: 50vh;
     }
     .title h1{
         font-size: 100px !important;
@@ -138,7 +159,7 @@
     }
     .top{
         flex-direction: row !important;
-        justify-content: space-between;
+        justify-content:space-between;
         align-items: center;
     }
     .gallary .img{
@@ -213,26 +234,8 @@ header .navigation li a:hover{
 /* body */
 
 /* title */
-.home{
-    width: 100%;
-    background-image: url(image/ev.jpeg);
-    /* background-color: #cf9d6c; */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.title{
-    padding: 10px;
-    display: block;
-    color: #ffffff;
-    font-weight: 700;
-    line-height: 60px;
-    text-align: center;
-}
-    
+
+  
 .title h1{
     font-family: Cinzel;
     font-size: 50px;
@@ -243,6 +246,7 @@ header .navigation li a:hover{
 .blk_sp{
     width: 100%;
     padding: 20px 10px;
+    /* background-image: url(image/av.jpg); */
     background-color: #8d5306;
     text-align: center;
     letter-spacing: .1em;
@@ -266,33 +270,33 @@ header .navigation li a:hover{
 } */
 
 .why .img1{
-    background-image: url(image/a.png);
+    background-image: url(image/3s.jpeg);
 }
 .why .img2{
     background-image: url(image/og.jpeg);
 }
 .why .img3{
-    background-image: url(image/co.png);
+    background-image: url(image/co.jpeg);
 }
 .why .img4{
     background-image: url(image/po.jpeg);
 }
 .why .img5{
-    background-image: url(image/st.png);
+    background-image: url(image/STTT.jpg);
 }
 .why .img6{
-    background-image: url(image/th.png);
+    background-image: url(image/th2.png);
 }
 .why .img7{
-    background-image: url(image/d2.png);
+    background-image: url(image/td.png);
 }
 .why .img8{
-    background-image: url(image/d1.png);
+    background-image: url(image/d.png);
 }
 .why .col1{
     
     /* background-color: #cf9d6c; */
-    background-position: center;
+    background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 300px;
@@ -335,4 +339,31 @@ header .navigation li a:hover{
     font-weight: 600;
     padding-right: 50px;
     line-height: 30px;
+}
+
+
+.bgtext{
+    background-image: url(image/ev.jpeg); 
+    background-position: center;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-height: 300px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+    
+}
+.home{
+    width: 100%;
+}
+.title{
+    padding: 10px;
+    display: block;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
 }
